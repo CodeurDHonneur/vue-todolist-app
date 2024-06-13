@@ -12,9 +12,8 @@
       <li>
         <RouterLink to="#">Terminé</RouterLink>
       </li>
-
-      <button class="clear-completed">Sup. tâches terminées</button>
     </ul>
+    <button class="clear-completed">Sup. tâches terminées</button>
   </footer>
 </template>
 
