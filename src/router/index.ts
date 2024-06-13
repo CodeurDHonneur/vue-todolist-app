@@ -1,6 +1,5 @@
-import TodoView from "@/views/TodoView.vue";
-import { createMemoryHistory, createRouter } from 'vue-router';
-
+import TodoView from '@/views/TodoView.vue'
+import { createMemoryHistory, createRouter } from 'vue-router'
 
 const routes = [
   {
@@ -11,7 +10,7 @@ const routes = [
 
 const router = createRouter({
   history: createMemoryHistory(),
-  routes,
+  routes
 })
 
-export default router;
+export default router
